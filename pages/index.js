@@ -8,6 +8,7 @@ import Result from '../components/Result'
 function Home({results}) {
   
   return (
+    
     <div className='container m-auto px-5'>
 
       <Meta title='Hulu 2.0 | Home' />
