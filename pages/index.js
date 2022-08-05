@@ -13,9 +13,6 @@ function Home({results}) {
 
       <Meta title='Hulu 2.0 | Home' />
 
-      {/* HEADER */}
-      <Header />
-
       {/* NAVBAR */}
       <Navbar />
 
