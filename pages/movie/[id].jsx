@@ -11,13 +11,13 @@ const SingleMovie = ({ article }) => {
 
     return (
 
-        <div className="container flex items-center flex-wrap m-auto">
+        <div className="container flex items-center flex-wrap m-auto mt-12">
 
-            <div className="md:w-1/2 w-full h-full mx-8 mb-6">
+            <div className="w-full h-full mx-8 mb-6">
                 <Image className='object-cover mr-1' src={MoviePoster} alt={article.title} width={1920} height={1500} />
             </div>
 
-            <div className="md:w-1/2 w-full">
+            <div className="w-full mx-8">
 
                 <h1 className='mb-6 text-4xl font-bold'> {article.title} </h1>
 

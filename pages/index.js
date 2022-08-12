@@ -1,6 +1,4 @@
 import Meta from '../components/Meta'
-import Header from '../components/Header/Header'
-import Navbar from '../components/Navbar'
 import axios from 'axios'
 import request from '../utils/request'
 import Result from '../components/Result'
@@ -12,9 +10,6 @@ function Home({results}) {
     <div className='container m-auto px-5'>
 
       <Meta title='Hulu 2.0 | Home' />
-
-      {/* NAVBAR */}
-      <Navbar />
 
       {/* RESULTS */}
       <Result results={results.results} />
